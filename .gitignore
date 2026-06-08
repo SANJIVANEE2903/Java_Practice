@@ -1,0 +1,22 @@
+# VS Code
+.vscode/
+
+# Java compiled files
+*.class
+
+# PDFs
+*.pdf
+
+# Executables
+*.exe
+
+# Logs
+*.log
+
+# Java packages
+*.jar
+
+# Build folders
+bin/
+out/
+target/
