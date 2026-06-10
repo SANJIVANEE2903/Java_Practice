@@ -1,6 +1,6 @@
-import java.util.*;
+// import java.util.*;
 
-public class Conditions {
+// public class Conditions {
  
     // //if -else condition
     // public static void main(String[] args) {
