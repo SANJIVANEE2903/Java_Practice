@@ -1,3 +1,5 @@
+import java.util.*;
+
 // public class array {
 //     public static void main(String[] args) {
 //         int[] marks = new int[3];
@@ -63,43 +65,92 @@
 
 //Take an array as input from user.
 //Search for a given number x and print the index at which it occurs
-import java.util.Scanner;
 
+// public class array {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         // Input array size
+//         System.out.print("Enter size of array: ");
+//         int size = sc.nextInt();
+
+//         int[] arr = new int[size];
+
+//         // Input array elements
+//         System.out.println("Enter array elements:");
+//         for (int i = 0; i < size; i++) {
+//             arr[i] = sc.nextInt();
+//         }
+
+//         // Input number to search
+//         System.out.print("Enter number to search: ");
+//         int x = sc.nextInt();
+
+//         // Search element
+//         boolean found = false;
+//         for (int i = 0; i < size; i++) {
+//             if (arr[i] == x) {
+//                 System.out.println("Element found at index: " + i);
+//                 found = true;
+//                 break;
+//             }
+//         }
+
+//         // If element not found
+//         if (!found) {
+//             System.out.println("Element not found in array.");
+//         }
+
+//         sc.close();
+//     }
+// }
+
+
+//from apana cllege code
+// public class array {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner(System.in);
+
+//         int size = sc.nextInt();
+//     int numbers[] = new int[size];
+
+//     //input
+//     for(int i=0; i<size; i++) {
+//         numbers[i] = sc.nextInt();
+
+//     }
+//     int x = sc.nextInt();
+
+//     //output
+//     for(int i=0; i<numbers.length; i++) {
+//         if(numbers[i] == x) {
+//              System.out.println("Element found at index: " + i);
+            
+//         }
+     
+
+//     }
+
+// }
+// }
+
+//Defining array and taking input from user and printing the array
 public class array {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-        // Input array size
-        System.out.print("Enter size of array: ");
         int size = sc.nextInt();
+        int numbers[] = new int[size];//passing size of array to the array]
 
-        int[] arr = new int[size];
+    //input
+    for(int i=0; i<size; i++) {
+        numbers[i] = sc.nextInt();
 
-        // Input array elements
-        System.out.println("Enter array elements:");
-        for (int i = 0; i < size; i++) {
-            arr[i] = sc.nextInt();
-        }
+     }
 
-        // Input number to search
-        System.out.print("Enter number to search: ");
-        int x = sc.nextInt();
-
-        // Search element
-        boolean found = false;
-        for (int i = 0; i < size; i++) {
-            if (arr[i] == x) {
-                System.out.println("Element found at index: " + i);
-                found = true;
-                break;
-            }
-        }
-
-        // If element not found
-        if (!found) {
-            System.out.println("Element not found in array.");
-        }
-
-        sc.close();
+     int x = sc.nextInt();
+    //output
+    for(int i=0; i<numbers.length; i++) {
+        System.out.println(numbers[i]);
     }
+  }
 }
